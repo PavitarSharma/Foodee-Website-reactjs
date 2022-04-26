@@ -1,11 +1,17 @@
 import React from 'react'
+import NavBar from './components/Navbar/NavBar'
+import Menu from './components/Menu/Menu'
+import './App.scss'
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello React!</h1>
-    </div>
+    <>
+      <NavBar />
+      <Menu />
+    </>
   )
 }
 
 export default App
+
+//https://technext.github.io/foodee/

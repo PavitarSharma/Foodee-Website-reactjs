@@ -1,0 +1,11 @@
+.about-page {
+    width: 100%;
+    background-image: url('https://technext.github.io/foodee/images/res_img_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.about-title .first-letter{
+    font-size: 84px !important;
+}

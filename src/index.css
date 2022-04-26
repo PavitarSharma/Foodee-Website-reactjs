@@ -11,10 +11,23 @@
   --font-openSans: 'Open Sans', sans-serif;
   --font-ptSans: 'PT Sans', sans-serif;
 
-  --white-color: #fff;
-  --black-color: #000;
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-orange: hsl(24, 89%, 51%);
+  --color-yellow: hsl(40, 82%, 89%);
+  --color-yellowish: hsl(26, 12%, 62%);
 }
 
 body {
   overflow-x: hidden;
+  font-family: var(--font-openSans)
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
 }
